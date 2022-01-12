@@ -109,11 +109,13 @@ body {
 .column-nav {
     width: 25%;
     float: left;
+    position: fixed;
 }
 
 .column-75 {
     width: 75%;
     float: left;
+    margin-left: 25%;
 }
 
 header {
@@ -259,8 +261,10 @@ footer {
     .column-nav {
         width: 100%;
         float: left;
+        position: relative;
     }
     .column-75 {
         width: 100%;
+        margin: 0%;
     }
 }
